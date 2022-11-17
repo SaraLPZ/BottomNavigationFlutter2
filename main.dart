@@ -35,6 +35,8 @@ class _MyAppState extends State<MyApp> {
             BottomNavigationBarItem(
                 icon: Icon(Icons.exit_to_app), label: "Exit"),
           ],
+          unselectedItemColor: Colors.grey,
+          fixedColor: Colors.black,
         ),
       ),
     );
